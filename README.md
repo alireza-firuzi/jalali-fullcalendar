@@ -7,17 +7,21 @@
 <link rel='stylesheet' href='/assets/dist/js/fullcalendar/fullcalendar.css' />
 
 * add a div element width **_fullcalendar_** ID :
+
 ```
 <div id='fullcalendar'></div>
 ```
 * after that we need to include javascripts:
+
 ```
 <script src='/assets/dist/js/fullcalendar/lib/moment.min.js'></script>
 <script src='/assets/dist/js/fullcalendar/persian-date-0.1.8.min.js'></script>
 <script src='/assets/dist/js/fullcalendar/fullcalendar.js'></script>
 <script src='/assets/dist/js/fullcalendar/lang-all.js'></script>
 ```
+
 * at the end :
+
 ```
 <script type="text/javascript">
  $(document).ready(function () {
