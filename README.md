@@ -34,7 +34,7 @@
                 center: 'title',
                 right: 'month,agendaWeek,agendaDay'
             },
-            lang1: 'persianJalali',
+            jdatetype: 'persianJalali',
             lang: 'fa',
             fistDay: 6,
             isRTL: true,
@@ -46,7 +46,7 @@
                     $.isLoading("hide");
                 }
             },
-//            editable: true,
+           editable: true,
             dayClick: function (date, allDay, jsEvent, view) {
 //                console.log(date);
             },
